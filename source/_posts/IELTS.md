@@ -1,3 +1,9 @@
+title: IELTS Vocabulary Note
+date: 2024-3-31 01:36
+tags: English Vocabulary IELTS 新东方
+---
+
+
 # IELTS Vocabulary
 
 **词根、词缀**

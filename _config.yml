@@ -108,7 +108,7 @@ deploy:
   type: ''
 
 live2d:
-  enable: false
+  enable: true
   # enable: false
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
@@ -120,7 +120,7 @@ live2d:
   tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false # 调试, 是否在控制台输出日志
   model:
-    use: Murasame
+    use: ./models/33
     # use: ./wives/wanko # 相对于博客根目录的路径
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
     display:    # 模型展示的位置设置

@@ -612,9 +612,8 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
-
+    - 战争即和平 自由即奴役 无知即力量
+    - 思想罪不会带来死亡，思想罪本身就是死亡。
 # 手机二级菜单.
 navMenu:
   mleft: false # 二级侧栏子菜单是否对齐左边

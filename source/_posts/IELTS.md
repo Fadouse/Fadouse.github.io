@@ -1,10 +1,6 @@
-title: IELTS Vocabulary Note
-date: 2024-3-31 01:36
-tags: [Vocabulary,IELTS]
----
-
-
 # IELTS Vocabulary
+
+### Word list 1
 
 **词根、词缀**
 
@@ -79,7 +75,7 @@ tags: [Vocabulary,IELTS]
 
 10. **absurd*** adj. 荒谬的，荒唐的
 
-   :information_source: Currently, the societies is absurd.
+     :information_source: Currently, the societies is absurd.
 
 11. **abundance*** n. 大量，丰富，充足，充裕
 
@@ -101,10 +97,53 @@ tags: [Vocabulary,IELTS]
 
     :information_source: He pointed his telescope to every ***accessible*** part of the sky and recorded what he saw.
 
-15. **accessory*** n. 附件，零件；服装搭配物，装饰品；同谋，帮凶
+15.  **accessory*** n. 附件，零件；服装搭配物，装饰品；同谋，帮凶
 
-    :star: ac(附近) + cess(走) + ory :arrow_right: 接近主题的部分 ::arrow_right: 附件，零件
+    :star: ac(附近) + cess(走) + ory :arrow_right: 接近主题的部分 :arrow_right: 附件，零件
 
-    :information_source: My sister buys a lot of ***accessories*** but doesn't use these.
+    :information_source: My sister buys a lot of ***accessories*** but doesn't use these. 
 
-    
+16. **acclaim*** vt. 向...欢呼，为...喝彩 n. 称赞；欢迎
+
+    :star: ac(向) + claim(大声欢呼) :arrow_right: 想某人大声叫喊 :arrow_right: 为...欢呼
+
+    :information_source: There's lots to see and to do, including the internationally- ***acclaimed*** climbing wall built on the site of the old aquarium.
+
+17. **acclimatise*** v. 适应新环境
+
+    :information_source: After a couple of days to ***acclimatise*** yourself, you'll start the trek on day three walking through the enormous Katiba Forest which will take the whole of the day.
+
+18. **accommodation*** n. 住处
+
+    :star: ac + commod(看作common, 普通的) + ation(名词后缀) :arrow_right: 再普通的人都需要住处 :arrow_right: 住处 
+
+19. **accompany*** vt. 陪伴；伴随, 于同时发生；伴奏
+
+    :star: ac(表加强) + company(同伴; 陪伴) :arrow_right: 陪伴；伴随
+
+    :information_source: I ***accompany*** the animation girl that in galgame, when other accompany their real girl friend. :sob:
+
+20. **accomplish** vt. 达到(目的)，完成(任务)，实现(计划、诺言等)
+
+    :star: ac + compl(看作complete，完成) + ish(使...) :arrow_right: 完成
+
+    Eventually, I ***accomplished*** what I set out to do when I was 8 years old.
+
+21. **accountancy** n. 会计工作，会计职业
+
+    :information_source: My father worked in ***accountancy*** and helps his company avoid unnecessary cost.
+
+    **accountant** n. 会计师 
+
+22. **accredit** vt. 信任，相信，为人，授权；把...归于
+
+    :star: ac + credit(信任) :arrow_right: 信任，相信
+
+    :information_source: Our company's goal is for every employee ***accredit*** each other.
+
+
+
+
+
+
+

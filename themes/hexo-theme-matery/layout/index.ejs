@@ -132,3 +132,23 @@
 <% if (page.total > 1) { %>
 <%- partial('_partial/paging') %>
 <% } %>
+
+
+{% block live2d %}
+<div class="Canvas"  id="L2dCanvas"></div>
+<script>
+    var config = {
+        width: 800,
+        height: 600,
+        left: '850px',
+        bottom: '-100px',
+        basePath: 'https://cdn.jsdelivr.net/gh/Fadouse/AzurLaneL2DViewer@try/assets/',
+        //role: 'Tiger',
+        role: 'murasame',
+        // background: 'https://cdn.jsdelivr.net/gh/xiunianjun/AzurLaneL2DViewer@gh-page/assets/bg/bg_church_jp.png',
+        opacity: 1,
+        mobile: true
+    }
+    var v = new Viewer(config);
+</script>
+{% endblock %}

@@ -24,7 +24,7 @@
         body{
             background-image: url(https://moe.jitsu.top/img/?sort=pc);
             background-repeat:no-repeat;
-            background-size: 100% 100%;
+            background-size: cover;
             background-attachment:fixed;
         }
     </style>
@@ -66,6 +66,24 @@
 <link rel="alternate" href="/atom.xml" title="Fadouse的小屋" type="application/atom+xml">
 </head>
 
+
+<head>
+    <meta charset="UTF-8">
+    <title>live2d-demo</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Live2DCubismCore -->
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/frame/live2dcubismcore.min.js"></script>
+    <!-- Include Pixi. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+    <!-- Include Cubism Components. -->
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/live2dcubismframework.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/live2dcubismpixi.js"></script>
+    <!-- User's Script -->
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/l2d.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/main.js"></script>
+    <style>
+    </style>
+</head>
 
 <body>
     <header class="navbar-fixed">
@@ -893,7 +911,7 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-
+    {% block live2d %}{% endblock %}
 </body>
 
 </html>

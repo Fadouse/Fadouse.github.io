@@ -24,7 +24,7 @@
         body{
             background-image: url(https://moe.jitsu.top/img/?sort=pc);
             background-repeat:no-repeat;
-            background-size: 100% 100%;
+            background-size: cover;
             background-attachment:fixed;
         }
     </style>
@@ -66,6 +66,24 @@
 <link rel="alternate" href="/atom.xml" title="Fadouse的小屋" type="application/atom+xml">
 </head>
 
+
+<head>
+    <meta charset="UTF-8">
+    <title>live2d-demo</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Live2DCubismCore -->
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/frame/live2dcubismcore.min.js"></script>
+    <!-- Include Pixi. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+    <!-- Include Cubism Components. -->
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/live2dcubismframework.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/live2dcubismpixi.js"></script>
+    <!-- User's Script -->
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/l2d.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/main.js"></script>
+    <style>
+    </style>
+</head>
 
 <body>
     <header class="navbar-fixed">
@@ -410,10 +428,19 @@
             <div class="tag-chips">
                 
                 
+                <a href="/tags/Vocabulary/" title="Vocabulary: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Vocabulary" style="background-color: #F9EBEA;">Vocabulary
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/IELTS/" title="IELTS: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="IELTS" style="background-color: #F9EBEA;">IELTS
+                            data-tagname="IELTS" style="background-color: #F5EEF8;">IELTS
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -422,7 +449,25 @@
                 <a href="/tags/HTML/" title="HTML: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="HTML" style="background-color: #F5EEF8;">HTML
+                            data-tagname="HTML" style="background-color: #D5F5E3;">HTML
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CSS/" title="CSS: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CSS" style="background-color: #E8F8F5;">CSS
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/JavaScript/" title="JavaScript: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="JavaScript" style="background-color: #FEF9E7;">JavaScript
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -438,7 +483,7 @@
         <div class="row tags-posts">
             
             
-            <div class="article tag-post col s12 m6 l4" data-tags="IELTS" data-aos="fade-up">
+            <div class="article tag-post col s12 m6 l4" data-tags="Vocabulary, IELTS" data-aos="fade-up">
                 <div class="card">
                     <a href="/2024/03/31/IELTS/">
                         <div class="card-image tag-image">
@@ -818,7 +863,7 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-
+    {% block live2d %}{% endblock %}
 </body>
 
 </html>

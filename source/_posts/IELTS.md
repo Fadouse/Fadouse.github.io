@@ -1,6 +1,6 @@
 title: IELTS Vocabulary Note
 date: 2024-3-31 01:36
-tags: IELTS
+tags: [Vocabulary,IELTS]
 ---
 
 

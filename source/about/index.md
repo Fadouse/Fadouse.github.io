@@ -1,6 +1,6 @@
 ---
-title: 关于
-date: 2021-09-22 21:01:47
-comments: true
+title: about
+date: 2018-09-30 17:25:30
+type: "about"
+layout: "about"
 ---
-## 关于

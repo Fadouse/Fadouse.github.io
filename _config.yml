@@ -5,7 +5,7 @@
 # Site
 title: Fadouse的小屋
 subtitle: 'Ciallo～(∠・ω< )⌒☆'
-description: '=v='
+description: '苦逼初三学生'
 keywords: Blog 博客 Python C++ Java
 author: Fadouse
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: Asia/Chongqing
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://fadouse.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: reimu
+theme: hexo-theme-matery
 
 mermaid:
   enable: true

@@ -377,7 +377,7 @@ valine:
   appId:  VvxEJfbxCGoXtuWRbzb1y78K-gzGzoHsz
   appKey: 1hzn5lFDPE2RahWS88mQWe7o
   serverURLs:
-  notify: false
+  notify: true
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide

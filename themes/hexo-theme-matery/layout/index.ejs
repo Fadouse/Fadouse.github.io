@@ -5,14 +5,46 @@
 <% } %>
 <%- partial('_partial/bg-video') %>
 
-<main class="content">
 
+<main class="content">
     <% if (page.current === 1
             && ((theme.dream.enable || theme.music.enable)
                     || theme.video.enable || theme.recommend.enable)) { %>
     <div id="indexCard" class="index-card">
         <div class="container ">
             <div class="card">
+                <marquee behavior="scroll" direction="left" scrollamount="30"><span
+                            style="color: red; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="15"><span
+                            style="color: aqua; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="25"><span>Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="12"><span
+                            style="color: coral; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="28"><span
+                            style="color: red; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="20"><span style="color: greenyellow; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="10"><span>Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="15"><span
+                            style="color: pink; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="11"><span
+                            style="color: aqua; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="28"><span
+                            style="color: red; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="8"><span style="color: greenyellow; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="20"><span
+                            style="color: pink; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="13"><span
+                            style="color: green; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="17"><span
+                            style="color: blue; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="16"><span
+                            style="color: yellow; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="11"><span
+                            style="color: red; ">Ciallo～(∠・ω< )⌒★</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="10"><span
+                            style="color: orange; ">Ciallo～(∠・ω< )⌒☆</span></marquee>
+                <marquee behavior="scroll" direction="left" scrollamount="20"><span
+                            style="color: gray; ">Ciallo～(∠・ω< )⌒★</span></marquee>
                 <div class="card-content">
                     <% if (theme.dream.enable) { %>
                         <%- partial('_widget/dream') %>
@@ -133,6 +165,63 @@
 <%- partial('_partial/paging') %>
 <% } %>
 
+<script type="text/javascript">
+    let a_idx = 0;
+
+    let ac = new AudioContext();
+
+    $(function (){
+        $("body").click(function(e) {
+            const a = new Array("Ciallo～(∠・ω< )⌒★", "Ciallo～(∠・ω< )⌒☆");
+            const $i = $("<span/>").text(a[a_idx]);
+            a_idx = (a_idx + 1) % a.length;
+            const x = e.pageX,
+                y = e.pageY;
+            $i.css({
+                "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+                "top": y - 20,
+                "left": x,
+                "position": "absolute",
+                "font-weight": "bold",
+                "color": color16()
+            });
+            $("body").append($i);
+            load_sound('ciallo.aac');
+            $i.animate({
+                    "top": y - 180,
+                    "opacity": 0
+                },
+                1500,
+                function() {
+                    $i.remove();
+                });
+        });
+    })
+
+    function color16(){
+        const r = Math.floor(Math.random()*256);
+        const g = Math.floor(Math.random()*256);
+        const b = Math.floor(Math.random()*256);
+        return `#${r.toString(16)}${g.toString(16)}${b.toString(16)}`;
+    }
+
+    function load_sound(url_data) {
+        const req = new XMLHttpRequest();
+        req.open('GET', url_data, true);
+        req.responseType = 'arraybuffer';
+        req.onload = function() {
+            ac.decodeAudioData(req.response, function(buffer){
+                const source = ac.createBufferSource();
+                source.buffer = buffer;
+                source.connect(ac.destination);
+                source.start(0);
+            },function (e) {
+                console.info('错误');
+            });
+        }
+        req.send();
+    }
+</script>
 
 <!--{% block live2d %}-->
 <!--<div class="Canvas"  id="L2dCanvas"></div>-->

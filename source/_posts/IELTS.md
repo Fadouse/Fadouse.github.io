@@ -149,9 +149,28 @@ tags: [Vocabulary,IELTS]
 
     :information_source: Our company's goal is for every employee ***accredit*** each other.
 
+23. **accreditation*** n. 证明合格，检定合格
 
+    :star: 来自accredit
 
+    :information_source: Our school has already reached the standards for the ***accreditation*** of colleges.
 
+24. **accumulate*** v. 积累；堆积
 
+    :star: ac(表加强) + cumul(堆积) + ate :arrow_right: 不断堆积 :arrow_right: 积累
 
+    :information_source: I accumulate a lots of Galgame in my pc. :laughing:
 
+25. **accustom*** vt. 使习惯于
+
+    :star: ac(表加强) + custom(风俗，习惯) :arrow_right: 使成为习惯 :arrow_right: 使习惯于
+
+    :information_source: If you go abroad for further study it will take a period of time for you to ***accustom*** yourself to the new environment, the new culture and all the new rules and regulations.
+
+26. **acknowledge*** v. 承认，确认；致意；感谢
+
+    :star: ac + know(知道)  + ledge :arrow_right: 大家都有的知识 :arrow_right: 承认
+
+    :information_source: Without acknowledge it, we can't finish this project.
+
+27. 

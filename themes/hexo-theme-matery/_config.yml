@@ -397,6 +397,8 @@ waline:
   serverURL: https://waline.your-domain.com
   avatar: 'mp' # Gravatar style : ''/mp/identicon/monsterid/wavatar/retro/hide
 
+
+
 changyan:
   enable: false
   appId:
@@ -665,7 +667,7 @@ jsDelivr:
   
 # 网站背景图
 background:
-  enable: true
+  enable: false
   url: "https://moe.jitsu.top/img/?sort=pc"
 
 # 说说 https://artitalk.js.org/
@@ -740,3 +742,6 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+
+loadingPages:
+  enable: true

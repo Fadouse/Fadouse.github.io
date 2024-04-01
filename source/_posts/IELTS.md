@@ -105,9 +105,9 @@ tags: [Vocabulary,IELTS]
 
     :information_source: He pointed his telescope to every ***accessible*** part of the sky and recorded what he saw.
 
-15.  **accessory*** n. 附件，零件；服装搭配物，装饰品；同谋，帮凶
+15. **accessory*** n. 附件，零件；服装搭配物，装饰品；同谋，帮凶
 
-    :star: ac(附近) + cess(走) + ory :arrow_right: 接近主题的部分 :arrow_right: 附件，零件
+    :star: ​ac(附近) + cess(走) + ory :arrow_right: 接近主题的部分 :arrow_right: 附件，零件 :
 
     :information_source: My sister buys a lot of ***accessories*** but doesn't use these. 
 

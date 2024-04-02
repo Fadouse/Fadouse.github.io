@@ -223,7 +223,7 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: false
+  enable: true
 
 # | 文件名             | 说明                   |
 # | :----------------- | :--------------------- |
@@ -242,7 +242,7 @@ sakura:
 
 # 是否激活页面鼠标星星跟随效果, 只在桌面版网页启用特效
 mouseStar:
-  enable: true
+  enable: false
 
   # 是否激活页面飘雪效果, 只在桌面版网页启用特效
 snowdown:
@@ -583,7 +583,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: true
+  enable: false
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.3 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.

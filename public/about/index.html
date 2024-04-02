@@ -626,7 +626,7 @@
 
                                 </div>
                                 <div class="title">Fadouse</div>
-                                <div class="career">初三学生</div>
+                                <div class="career">15岁初三学生</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/Fadouse" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -825,7 +825,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["HTML","CSS","JavaScript","Vocabulary","IELTS"]
+                data: ["Vocabulary","IELTS","HTML","CSS","JavaScript"]
             }
         ],
         yAxis: [
@@ -1008,16 +1008,6 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/HTML/">
-                <span class="chip center-align waves-effect waves-light chip-default">HTML</span>
-            </a>
-            
-            
-            
-            
-            
-            
-            
             <a href="/tags/Vocabulary/">
                 <span class="chip center-align waves-effect waves-light chip-default">Vocabulary</span>
             </a>
@@ -1027,6 +1017,16 @@
             <a href="/tags/IELTS/">
                 <span class="chip center-align waves-effect waves-light chip-default">IELTS</span>
             </a>
+            
+            
+            
+            <a href="/tags/HTML/">
+                <span class="chip center-align waves-effect waves-light chip-default">HTML</span>
+            </a>
+            
+            
+            
+            
             
             
         </div>
@@ -1387,12 +1387,16 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->
@@ -1414,8 +1418,6 @@ $(function () {
 </script>
 
     
-    <script src="/libs/others/clicklove.js" async="async"></script>
-    
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
@@ -1427,6 +1429,10 @@ $(function () {
     
     
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.3'
+        zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
     
 
     

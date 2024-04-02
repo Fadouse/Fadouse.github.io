@@ -582,37 +582,10 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/HTML/" title="HTML: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="HTML" style="background-color: #F9EBEA;">HTML
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/CSS/" title="CSS: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="CSS" style="background-color: #F5EEF8;">CSS
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/JavaScript/" title="JavaScript: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="JavaScript" style="background-color: #D5F5E3;">JavaScript
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Vocabulary/" title="Vocabulary: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Vocabulary" style="background-color: #E8F8F5;">Vocabulary
+                            data-tagname="Vocabulary" style="background-color: #F9EBEA;">Vocabulary
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -621,7 +594,34 @@
                 <a href="/tags/IELTS/" title="IELTS: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="IELTS" style="background-color: #FEF9E7;">IELTS
+                            data-tagname="IELTS" style="background-color: #F5EEF8;">IELTS
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/HTML/" title="HTML: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="HTML" style="background-color: #D5F5E3;">HTML
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CSS/" title="CSS: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CSS" style="background-color: #E8F8F5;">CSS
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/JavaScript/" title="JavaScript: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="JavaScript" style="background-color: #FEF9E7;">JavaScript
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -969,12 +969,16 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->
@@ -996,8 +1000,6 @@ $(function () {
 </script>
 
     
-    <script src="/libs/others/clicklove.js" async="async"></script>
-    
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
@@ -1009,6 +1011,10 @@ $(function () {
     
     
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.3'
+        zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
     
 
     

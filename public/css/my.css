@@ -87,6 +87,26 @@ h1 {
     background-color: #f9c4ea
 }
 
+.confetti:nth-child(11) {
+    left: 35%;
+    animation-delay: -2s;
+    background-color: #f0ad4e;
+}
+
+.confetti:nth-child(12) {
+    left: 25%;
+    animation-delay: -2.3s;
+    background-color: #e1bee7;
+}
+
+
+.confetti:nth-child(14) {
+    left: 14%;
+    animation-delay: -5.5s;
+    background-color: #f6e327
+}
+
+
 @keyframes confetti {
     0% {
         transform: rotateZ(15deg) rotateY(0deg) translate(0,0)

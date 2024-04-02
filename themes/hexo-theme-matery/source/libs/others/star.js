@@ -83,7 +83,7 @@
   function Particle() {
 
     this.character = "*";
-    this.lifeSpan = 120; //ms
+    this.lifeSpan = 100; //ms
     this.initialStyles ={
       "position": "fixed",
       "top": "0", //必须加
@@ -104,7 +104,6 @@
       
       this.position = {x: x - 10, y: y - 20};
       this.initialStyles.color = color;
-      console.log(color);
 
       this.element = document.createElement('span');
       this.element.innerHTML = this.character;
@@ -119,7 +118,7 @@
       this.position.y += this.velocity.y;
       this.lifeSpan--;
       
-      this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px,0) scale(" + (this.lifeSpan / 120) + ")";
+      this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px,0) scale(" + (this.lifeSpan / 100) + ")";
     }
     
     this.die = function() {

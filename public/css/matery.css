@@ -34,7 +34,7 @@
 }
 
 body {
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
@@ -242,7 +242,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(to right, #c471f5 0%, #fa71cd 100%);
 }
 
 .text-color {
@@ -258,7 +258,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(255, 200, 124) 24.5%, rgb(252, 251, 121) 66%);
     opacity: 0.8;
 }
 

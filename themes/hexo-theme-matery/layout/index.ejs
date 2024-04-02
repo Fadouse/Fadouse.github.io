@@ -6,6 +6,9 @@
 <%- partial('_partial/bg-video') %>
 q
 <main class="content">
+    <% if (page.current === 1
+            && ((theme.dream.enable || theme.music.enable)
+                    || theme.video.enable || theme.recommend.enable)) { %>
     <div id="confettis">
         <div class="confetti"></div>
         <div class="confetti"></div>
@@ -19,17 +22,7 @@ q
         <div class="confetti"></div>
         <div class="confetti"></div>
         <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
-        <div class="confetti"></div>
     </div>
-
-    <% if (page.current === 1
-            && ((theme.dream.enable || theme.music.enable)
-                    || theme.video.enable || theme.recommend.enable)) { %>
     <div id="indexCard" class="index-card">
         <div class="container ">
             <div class="card">
@@ -67,7 +60,7 @@ q
                     <marquee behavior="scroll" direction="left" scrollamount="20"><span
                                 style="color: gray; ">Ciallo～(∠・ω< )⌒★</span></marquee>
                 </div>
-                <div class="card-content">
+                <div id="startRead" class="card-content">
                     <% if (theme.dream.enable) { %>
                         <%- partial('_widget/dream') %>
                     <% } %>
@@ -246,22 +239,3 @@ q
         req.send();
     }
 </script>
-
-<!--{% block live2d %}-->
-<!--<div class="Canvas"  id="L2dCanvas"></div>-->
-<!--<script>-->
-<!--    var config = {-->
-<!--        width: 800,-->
-<!--        height: 600,-->
-<!--        left: '50px',-->
-<!--        bottom: '-100px',-->
-<!--        basePath: 'https://cdn.jsdelivr.net/gh/Fadouse/AzurLaneL2DViewer@1/assets/',-->
-<!--        //role: 'Tiger',-->
-<!--        role: 'aierdeliqi_4',-->
-<!--        // background: 'https://cdn.jsdelivr.net/gh/xiunianjun/AzurLaneL2DViewer@gh-page/assets/bg/bg_church_jp.png',-->
-<!--        opacity: 1,-->
-<!--        mobile: true-->
-<!--    }-->
-<!--    var v = new Viewer(config);-->
-<!--</script>-->
-<!--{% endblock %}-->

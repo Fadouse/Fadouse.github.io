@@ -40,7 +40,6 @@
     <%- body %>
 
     <%- partial('_partial/footer') %>
-
     <%- partial('_partial/search') %>
     <%- partial('_widget/day-night') %>
     <%- partial('_partial/back-top') %>
@@ -51,6 +50,7 @@
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.scrollProgress) %>"></script>
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.lightgallery) %>"></script>
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.matery) %>"></script>
+
 
     <% if (theme.mermaid.enable) { %>
         <!-- <script src='https://unpkg.com/mermaid@<%= theme.mermaid.version %>/dist/mermaid.min.js'></script> -->
@@ -152,7 +152,6 @@
             });
         </script>
     <% } %>
-
     <% if (theme.daovoice.enable) { %>
     <script>
         (function (i, s, o, g, r, a, m) {

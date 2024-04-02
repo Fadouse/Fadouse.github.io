@@ -322,7 +322,7 @@ body.DarkMode img, body.DarkMode strong {
 
 body.DarkMode {
     /* background-image: url(/medias_webp/sunset.webp); */
-    background-color: rgba(30, 30, 30);
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
 body.DarkMode #vcomments textarea,

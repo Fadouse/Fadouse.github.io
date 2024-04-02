@@ -171,6 +171,30 @@ tags: [Vocabulary,IELTS]
 
     :star: ac + know(知道)  + ledge :arrow_right: 大家都有的知识 :arrow_right: 承认
 
-    :information_source: Without acknowledge it, we can't finish this project.
+    :information_source: Without ***acknowledge*** it, we can't finish this project.
 
-27. 
+27. **acoustic*** adj. 原声的；声音(学)的；听觉的；
+
+    :information_source: In the houses near the highway special ***acoustic*** seals should be fitted to the doors to reduce noise.
+
+28. **acquaint*** vt. (使)认识；(使)熟悉
+
+    :information_source: Film provides an ideal opportunity to ***acquaint*** viewers with something unknown.
+
+29. **acquaintance*** n. 熟人；认识，了解
+
+    :star: acquaint + acne(名称后缀) :arrow_right: 熟人；认识
+
+    :information_source: It wan ins the United States that I made the acquaintance of Professor Jones.
+
+30. **acquire*** vt. 取得，获得
+
+    :star: ac(表加强) + quir(追求) + e :arrow_right: 不断追求才能够获得 :arrow_right: 获得，取得
+
+    :information_source: In the process of evolution, monkeys have not acquired the art of speech.
+
+31. **acquisition*** n. 取得；获得物
+
+    :star: By acquire
+
+    

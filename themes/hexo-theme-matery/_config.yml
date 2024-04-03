@@ -42,10 +42,10 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  enable: true
+  year: 2024 # 年份
+  month: 03 # 月份
+  date: 33 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -575,19 +575,19 @@ tuxiaochao:
 #背景canvas-nest
 canvas_nest:
   enable: false
-  color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
+  color: 255,255,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
   zIndex: -1 # 背景的 z-index 属性，css 属性用于控制所在层的位置, 默认: -1.
-  count: 99 # 线条的总数量, 默认: 99
+  count: 999 # 线条的总数量, 默认: 99
 
 # 背景静止彩带.
 ribbon:
-  enable: false
-  size: 150 # 彩带大小, 默认: 90.
+  enable: true
+  size: 30 # 彩带大小, 默认: 90.
   alpha: 0.3 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
-  clickChange: true  # 设置是否每次点击都更换彩带.
+  clickChange: false  # 设置是否每次点击都更换彩带.
 
 # 背景动态彩带.
 ribbon_dynamic:
@@ -742,6 +742,3 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
-
-loadingPages:
-  enable: true

@@ -183,7 +183,7 @@ tags: [Vocabulary,IELTS]
 
 29. **acquaintance*** n. 熟人；认识，了解
 
-    :star: acquaint + acne(名称后缀) :arrow_right: 熟人；认识
+    :star: acquaint + ance(名称后缀) :arrow_right: 熟人；认识
 
     :information_source: It wan ins the United States that I made the acquaintance of Professor Jones.
 

@@ -374,8 +374,8 @@ tcaptcha:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: true
-  appId:  VvxEJfbxCGoXtuWRbzb1y78K-gzGzoHsz
-  appKey: 1hzn5lFDPE2RahWS88mQWe7o
+  appId:  MDlEHLEbSMBYdULNvEYAw3js-MdYXbMMI
+  appKey: N7PW9m0jF0vwxCP7WGJ7sF9u
   serverURLs:
   notify: true
   verify: false

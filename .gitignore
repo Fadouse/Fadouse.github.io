@@ -3,3 +3,4 @@ db.json
 /node_modules/
 /.github/
 /public/
+/.idea/

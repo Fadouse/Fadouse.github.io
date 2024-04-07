@@ -14,6 +14,7 @@
   "dependencies": {
     "hexo": "^7.0.0",
     "hexo-algoliasearch": "^2.0.1",
+    "hexo-asset-image": "^1.0.0",
     "hexo-filter-github-emojis": "^3.0.5",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^2.0.0",

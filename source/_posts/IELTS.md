@@ -10,7 +10,7 @@ tags: [Vocabulary,IELTS]
 
 ### Word list 1
 
-**词根、词缀**
+### 词根、词缀 ###
 
 1. sorb 吸收
 2. sent 送
@@ -23,7 +23,7 @@ tags: [Vocabulary,IELTS]
 9. bat 走
 10. apt 适合的
 
-**单词**
+###  单词
 
 1. **abate** v. 减轻，降价
 
@@ -185,16 +185,46 @@ tags: [Vocabulary,IELTS]
 
     :star: acquaint + ance(名称后缀) :arrow_right: 熟人；认识
 
-    :information_source: It wan ins the United States that I made the acquaintance of Professor Jones.
+    :information_source: It wan ins the United States that I made the ***acquaintance*** of Professor Jones.
 
 30. **acquire*** vt. 取得，获得
 
     :star: ac(表加强) + quir(追求) + e :arrow_right: 不断追求才能够获得 :arrow_right: 获得，取得
 
-    :information_source: In the process of evolution, monkeys have not acquired the art of speech.
+    :information_source: In the process of evolution, monkeys have not ***acquired*** the art of speech.
 
 31. **acquisition*** n. 取得；获得物
 
     :star: By acquire
 
-    
+    :information_source: Tom's newest ***acquisition*** is a luxurious sports car.
+
+32. **acrobat*** n. 特解演员；杂技演员
+
+    :star: acro(高) + bat(走) :arrow_right: 高空走的人 :arrow_right: 杂技演员
+
+    :information_source: They are ***acrobats*** with the Albanian State Circus.
+
+33. **acrobatic*** adj. 杂技的；杂技般的；杂技演员的
+
+    :information_source: Jane used to be an ***acrobatic*** dancer but three year's ago, she started to learn fencing.
+
+34. **acumen** n. 敏锐；精明
+
+    :star: acu(尖，锐利，酸) + men :arrow_right: 敏锐；精明
+
+    :information_source: Sometimes, organizations with sound financial backing, good product ideas and market ***acumen*** under perform and fail to meet shareholders' expectations.
+
+35. **acupuncture** n. 针刺疗法，针灸
+
+    :information_source: ​***Acupuncture*** is a kind of Chinese methos of treating pain and illness using special thin needles. 
+
+36. **acute** adj. 灵敏的；剧烈的，猛烈的
+
+    :information_source: Dogs have very ***acute*** hearing. 
+
+37. **adapt*** v. 使适合；改编；适应
+
+    :star: ad + apt(适合的) :arrow_right: 使合适；适应
+
+    :information_source: All those older buildings in the city have been ***adapted*** for present-day use.​

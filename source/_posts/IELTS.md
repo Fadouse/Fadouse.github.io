@@ -228,3 +228,29 @@ tags: [Vocabulary,IELTS]
     :star: ad + apt(适合的) :arrow_right: 使合适；适应
 
     :information_source: All those older buildings in the city have been ***adapted*** for present-day use.​
+
+38. **adaptation** n.   适应；改变；改制物
+
+    :star: adapt(改编；适应) + ation(名词后缀) :arrow_right: 适应；改编
+
+    :information_source: The simplicity of Indian ways of life has been judged an evolutionary ***adaptation*** to forest ecology.
+
+39. **addict** n. 瘾君子
+
+    :information_source: The most tragical sight of all is the very young ***addicts***
+
+40. **addiction*** n. 瘾；沉迷
+
+    :information_source: For his severe illness he had to fight his ***addiction*** to alcohol.
+
+41. **adequate*** adj. 充足的；合适的，合格的
+
+    :star: ad(表加强) + equ(平等) + ate :arrow_right: 比平时多的 :arrow_right: 充足的
+
+    :information_source: Good living habits and ***adequate*** health care are critical factors of governing health.
+
+42. **adhere*** vi. 黏附；遵守；坚持
+
+    :star: ad(表加强) + her(黏附) + e :arrow_right: 连服；遵守
+
+    :information_source: Our firm has a set of standards which ***adhere*** to international requirements.
